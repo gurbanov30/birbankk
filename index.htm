@@ -1,0 +1,444 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="src/output.css" rel="stylesheet" />
+    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Birbank</title>
+  </head>
+  <body>
+    <header class="w-full border-b shadow-sm border-gray-300">
+
+      <div class="xl:flex justify-between max-w-[1100px] mx-auto px-3  items-center hidden lg:flex" >
+
+        <div>
+
+          <ul class="flex gap-7 font-medium items-center text-[17px] tracking-wide pt-2 text-[#9496ac]">
+            <li class="border-b-2 px-2 border-red-600 pb-2 cursor-pointer">
+              <a href="">Fiziki</a>
+            </li>
+            <li class="border-b-2 px-2 border-transparent pb-2 hover:border-red-600 transition-all cursor-pointer">
+              <a href="">Biznes</a>
+            </li>
+            <li class="border-b-2 px-2 border-transparent pb-2 hover:border-red-600 transition-all cursor-pointer">
+              <a href="">Invest</a>
+            </li>
+            <li class="border-b-2 px-2 border-transparent pb-2 hover:border-red-600 transition-all cursor-pointer" >
+              <a href="">Private</a>
+            </li>
+          </ul>
+
+        </div>
+
+        <div class="flex items-center hidden lg:flex">
+          <p class="text-[#9496ac] text-[12px] mr-1 pr-3 tracking-wider"> 'Birbank' brendi 'Kapital Bank' ASC-nin əmtəə nişanıdır.</p>
+          <a class="flex items-center bg-red-500 p-1  justify-center rounded-[5px]">
+            <i class="fa-solid fa-location-dot text-white text-[16px] pr-1"></i>
+            <p class="text-white text-[14px] pr-0.5">Xidmət şəbəkəsi</p>
+          </a>
+
+          <div class="text-[#6f6f70] text-[16px] flex gap-4 pl-4 tracking-wider  hidden lg:flex">
+            <a href="">EN</a>
+            <a href="">RU</a>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- border -->
+      <div class="border-b border-gray-200"></div>
+      <!--  -->
+
+      <div class="flex max-w-[1100px] mx-auto justify-between px-5">
+        <img class="w-[120px] h-auto pt-10 pb-10 pl-6 lg:p-0" src="img/birlogo.svg" alt="" />
+        <ul class="flex gap-5 font-medium items-center pt-8 pb-8 text-[14px] tracking-wide text-[#9496ac] hidden lg:flex">
+          <li class="border-b-3 border-transparent hover:border-red-500 hover:text">
+            <a href="">Kartlar</a>
+          </li>
+          <li class="border-b-3 border-transparent hover:border-red-500">
+            <a href="">Kreditlər</a>
+          </li>
+          <li class="border-b-3 border-transparent hover:border-red-500">
+            <a href="">Əmanətlər</a>
+          </li>
+          <li class="border-b-3 border-transparent hover:border-red-500">
+            <a href="">İstiqraz</a>
+          </li>
+          <li class="border-b-3 border-transparent hover:border-red-500">
+            <a href="">Pul köçürmələri</a>
+          </li>
+          <li class="border-b-3 border-transparent hover:border-red-500">
+            <a href="">Partnyorlar</a>
+          </li>
+          <li class="border-b-3 border-transparent hover:border-red-500">
+            <a href="">Kampaniyalar</a>
+          </li>
+          <li class="border-b-3 border-transparent hover:border-red-500">
+            <a href="">Xəbərlər</a>
+          </li>
+        </ul>
+        <div class="bg-red-500 lg:hidden w-12 h-12 flex items-center justify-center mt-9 mr-6 rounded-[6px]" >
+          <i class="fa-solid fa-bars text-white text-4xl"></i>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section id="hero">
+        <div class="max-w-[1100px] mx-auto  ">
+
+          <div class="swiper mySwiper h-[350px] max-w-[1100px] rounded-t-[10px]">
+
+            <div class="swiper-wrapper">
+
+              <div class="swiper-slide flex bg-[#f3f3f5] justify-between overflow-hidden items-center" >
+                <div class="flex">
+                  <div id="sol" class="w-1/2 pl-14">
+                    <h1 class="text-[48px] font-bold text-[#25282b] leading-12 mt-6 ">Yığım hesabı ilə <br> 5000 AZN <br> səyahət kuponu</h1>
+                    <p class="text-[18px]  text-[#898e93] tracking-wide mt-4"> "Səyahət" hədəfinə ən çox yığım edən qazanacaq</p>
+                    <div class="justify-center mt-16">
+                      <button class="bg-white text-[#ec3644] px-8 py-4 rounded-[8px] text-[16px]">
+                        <a href="">Ətrafli <i class="fa-solid fa-arrow-right "></i></a>
+                      </button>
+                    </div>
+                  </div>
+                  <div id="sag" class="w-1/2">
+                    <img class="w-[480px] h-auto" src="https://strapi-aws-s3-images-bucket-kb.s3.eu-central-1.amazonaws.com/480x304_213f363b1a.png"  alt=""/>
+                  </div>
+                </div>
+              </div>
+
+
+
+              <div class="swiper-slide flex bg-[#f3f3f5] justify-between overflow-hidden items-center" >
+                <div class="flex">
+                  <div id="sol" class="w-1/2 pl-14">
+                    <h1 class="text-[48px] font-bold text-[#25282b] leading-12 mt-6 ">Az faizli yaz <br> krediti</h1>
+                    <p class="text-[18px]  text-[#898e93] tracking-wide mt-4"> Cari faizlərimizə 6%-dək endirim</p>
+                    <div class="justify-center mt-16">
+                      <button class="bg-white text-[#ec3644] px-8 py-4 rounded-[8px] text-[16px]">
+                        <a href="">Ətrafli <i class="fa-solid fa-arrow-right "></i></a>
+                      </button>
+                    </div>
+                  </div>
+                  <div id="sag" class="w-1/2">
+                    <img class="w-[480px] h-auto" src="https://strapi-aws-s3-images-bucket-kb.s3.eu-central-1.amazonaws.com/BB_6_endirim_480x304_8e25b624bf.png"  alt=""/>
+                  </div>
+                </div>
+              </div>
+
+             <div class="swiper-slide flex bg-[#f3f3f5] justify-between overflow-hidden items-center" >
+                <div class="flex">
+                  <div id="sol" class="w-1/2 pl-14">
+                    <h1 class="text-[48px] font-bold text-[#25282b] leading-12 mt-6 ">Qazandıran bahar <br> kampaniyası</h1>
+                    <p class="text-[18px]  text-[#898e93] tracking-wide mt-4">Birbank taksit kartı ilə 50-dək bonus qazan!</p>
+                    <div class="justify-center mt-16">
+                      <button class="bg-white text-[#ec3644] px-8 py-4 rounded-[8px] text-[16px]">
+                        <a href="">Ətrafli <i class="fa-solid fa-arrow-right "></i></a>
+                      </button>
+                    </div>
+                  </div>
+                  <div id="sag" class="w-1/2">
+                    <img class="w-[480px] h-auto" src="https://strapi-aws-s3-images-bucket-kb.s3.eu-central-1.amazonaws.com/Untitled_1_802d916efb.png"  alt=""/>
+                  </div>
+                </div>
+              </div>
+
+              <div class="swiper-slide flex bg-[#f3f3f5] justify-between overflow-hidden items-center" >
+                <div class="flex">
+                  <div id="sol" class="w-1/2 pl-14">
+                    <h1 class="text-[48px] font-bold text-[#25282b] leading-12 mt-6 ">Onlayn kredit <br> 5%-dək daha <br> sərfəli</h1>
+                    <p class="text-[18px]  text-[#898e93] tracking-wide mt-4"> 50 000 ₼-dək nağd pulu indi əldə et</p>
+                    <div class="justify-center mt-16">
+                      <button class="bg-white text-[#ec3644] px-8 py-4 rounded-[8px] text-[16px]">
+                        <a href="">Ətrafli <i class="fa-solid fa-arrow-right "></i></a>
+                      </button>
+                    </div>
+                  </div>
+                  <div id="sag" class="w-1/2">
+                    <img class="w-[480px] h-auto" src="https://strapi-aws-s3-images-bucket-kb.s3.eu-central-1.amazonaws.com/Birbank_e2e_480x304_8520fab27a.png"  alt=""/>
+                  </div>
+                </div>
+              </div>
+
+              <div class="swiper-slide flex bg-[#f3f3f5] justify-between overflow-hidden items-center" >
+                <div class="flex">
+                  <div id="sol" class="w-1/2 pl-14">
+                    <h1 class="text-[48px] font-bold text-[#25282b] leading-12 mt-6 ">Qarşınızda yeni <br> Birbank Platinum <br>kartlarımız</h1>
+                    <p class="text-[18px]  text-[#898e93] tracking-wide mt-4"> Üstünlüklərdən yararlan</p>
+                    <div class="justify-center mt-16">
+                      <button class="bg-white text-[#ec3644] px-8 py-4 rounded-[8px] text-[16px]">
+                        <a href="">Ətrafli <i class="fa-solid fa-arrow-right "></i></a>
+                      </button>
+                    </div>
+                  </div>
+                  <div id="sag" class="w-1/2">
+                    <img class="w-[480px] h-auto" src="https://strapi-aws-s3-images-bucket-kb.s3.eu-central-1.amazonaws.com/BB_Platinum_Launch_480x304_c007954a74.png"  alt=""/>
+                  </div>
+                </div>
+              </div>
+
+              <div class="swiper-slide flex bg-[#f3f3f5] justify-between overflow-hidden items-center" >
+                <div class="flex">
+                  <div id="sol" class="w-1/2 pl-14">
+                    <h1 class="text-[48px] font-bold text-[#25282b] leading-12 mt-6 ">Qafqazın ilk tam <br> inteqrasiyalı <br> rəqəmsal <br> platforması </h1>
+                    <div class="justify-center mt-16">
+                      <button class="bg-white text-[#ec3644] px-8 py-4 rounded-[8px] text-[16px]">
+                        <a href="">Ətrafli <i class="fa-solid fa-arrow-right "></i></a>
+                      </button>
+                    </div>
+                  </div>
+                  <div id="sag" class="w-1/2">
+                    <img class="w-[480px] h-auto" src="https://strapi-aws-s3-images-bucket-kb.s3.eu-central-1.amazonaws.com/Bir_pay0000_19_1_052deb3374.png"  alt=""/>
+                  </div>
+                </div>
+              </div>
+
+              <div class="swiper-slide flex bg-[#f3f3f5] justify-between overflow-hidden items-center" >
+                <div class="flex">
+                  <div id="sol" class="w-1/2 pl-14">
+                    <h1 class="text-[48px] font-bold text-[#25282b] leading-12 mt-6 ">Dələduzu necə<br>tanımaq olar?  </h1>
+                    <p class="text-[18px]  text-[#898e93] tracking-wide mt-4"> "Səyahət" hədəfinə ən çox yığım edən qazanacaq</p>
+                    <div class="justify-center mt-16">
+                      <button class="bg-white text-[#ec3644] px-8 py-4 rounded-[8px] text-[16px]">
+                        <a href="">Ətrafli <i class="fa-solid fa-arrow-right "></i></a>
+                      </button>
+                    </div>
+                  </div>
+                  <div id="sag" class="w-1/2">
+                    <img class="w-[480px] h-auto" src="https://strapi-aws-s3-images-bucket-kb.s3.eu-central-1.amazonaws.com/ezgif_com_png_to_webp_converter_1_9a0a5f9088.webp"  alt=""/>
+                  </div>
+                </div>
+              </div>
+
+              
+            </div>
+            <div class="swiper-button-next bg-white rounded-[12px] !h-12 !w-12 !text-[#d4d6db] p-2 m-2"></div>
+            <div class="swiper-button-prev bg-white rounded-[12px] !h-12 !w-12 !text-[#d4d6db] p-2 ml-2"></div>
+          </div>
+
+          <!-- 1 -->
+
+          <div class="grid grid-cols-1 md:grid-cols-6 gap-[22px] w-full p-6 bg-[#f3f3f5] rounded-b-[10px]">
+
+            <div class="col-span-1 md:col-span-3 bg-white rounded-[10px] p-5 shadow-sm min-h-[180px] relative overflow-hidden flex flex-col ">
+              <div class="w-2/3 pr- z-10">
+                <h2 class=" text-[20px] font-semibold text-gray-950"> Birbank Star kartı </h2>
+                <p class="text-gray-500 text-[#8c939a] text-[14px] "> Üstünlüklərlə dolu bu kartla <br />ürəyincə xərclə, məbləği ay <br />sonu geri qaytardıqda əlavə heç <br />nə ödəmə</p>
+              </div>
+              <div class="absolute bottom-0 right-0 w-[250px] h-auto translate-y-4" >
+                <img class="w-full h-auto object-contain object-bottom" src="https://strapi-aws-s3-images-bucket-kb.s3.eu-central-1.amazonaws.com/star_kart_99e6f4ab5b.webp" alt="Birbank Star Kartı"/>
+              </div>
+            </div>
+
+            <!-- 2 -->
+
+            <div class="col-span-1 md:col-span-3 bg-white rounded-[10px] p-5 shadow-sm flex min-h-[180px]" >
+              <div class="">
+              <h2 class="text-[20px] font-semibold">Nağd pul krediti</h2>
+              <p class="text-gray-500 text mt-2 text-[14px]">50 000 AZN-dək krediti sərfəli <br> şərtlərlə, asanlıqla və çox qısa <br> zamanda əldə et</p>
+              </div>
+              <div class="w-[250px] bottom-0 right-0">
+                <img class="" src="https://strapi-aws-s3-images-bucket-kb.s3.eu-central-1.amazonaws.com/cash_loan_e585a43efc_bc3418bb12.webp" alt=""/>
+              </div>
+            </div>
+
+            <!-- 3 -->
+
+            <div class="col-span-1 md:col-span-2 bg-white rounded-[10px] p-5 shadow-sm min-h-[160px] relative overflow-hidden group">
+              <div class="relative z-10 w-2/3">
+                <h2 class="text-[18px] font-semibold text-gray-950">İstiqraz</h2>
+                <p class="text-[#8c939a] text-[13px] mt-2 leading-snug">Yüksək gəlirli və <br> etibarlı, istiqrazlarımıza <br> yatırım etməklə daha <br> çox gəlir qazana <br> bilərsən.</p>
+              </div>
+              <img class="absolute bottom-0 right-0 w-[120px] h-auto object-contain transition-transform " 
+                  src="https://strapi-aws-s3-images-bucket-kb.s3.eu-central-1.amazonaws.com/bond_img_c417c1a3ce_52314cc099.webp">
+            </div>
+
+            <!-- 4 -->
+
+            <div class="col-span-1 md:col-span-2 bg-white rounded-[10px] p-5 shadow-sm min-h-[160px] relative overflow-hidden group">
+              <div class="relative z-10 w-2/3">
+                <h2 class="text-[18px] font-semibold text-gray-950">Depozit</h2>
+                <p class="text-[#8c939a] text-[13px] mt-2 leading-snug">Birbank tətbiqi ilə <br>   depozit yatır, gəlirini <br> yüksək faizlə artır</p>
+              </div>
+              <img class="absolute bottom-0 right-0 w-[120px] h-auto object-contain transition-transform" 
+                  src="https://strapi-aws-s3-images-bucket-kb.s3.eu-central-1.amazonaws.com/deposit_5d3d72aa1c_ecf628dcc4.webp">
+            </div>
+
+            <!-- 5 -->
+
+            <div class="col-span-1 md:col-span-2 bg-white rounded-[10px] p-5 shadow-sm min-h-[160px] relative overflow-hidden group">
+              <div class="relative z-10 w-2/3">
+                <h2 class="text-[18px] font-semibold text-gray-950 leading-tight">Birbank <br> Cashback kartı</h2>
+                <p class="text-[#8c939a] text-[13px] mt-2 leading-snug">Bu kart sənə bol-bol <br> bonus, ödənişlərinə <br> rahatlıq gətirəcək</p>
+              </div>
+              <img class="absolute bottom-0 right-0 w-[140px] h-auto object-contain transition-transform" 
+                  src="https://strapi-aws-s3-images-bucket-kb.s3.eu-central-1.amazonaws.com/cashback_card_665d7e50b0_a65d1febde.webp">
+            </div>
+
+          </div>
+        </div>
+      </section>
+
+      <section id="mobil"> 
+        <div class=" text-center mt-22">
+          <h2 class="font-semibold text-[#25282b] text-6xl">Yenilənmiş mobil <br> tətbiqimiz hər zaman <br> xidmətindədir.</h2>
+          <p  class="mt-1.5 text-[18px]">iOS və Android əməliyyat sistemlərində mövcuddur.</p>
+        </div>
+
+        <div id="ikisi" class="flex items-center justify-center mt-10">
+        <div class=" ">
+          <div class="bg-[#25282b] w-[190px] text-white items-center flex rounded-[10px] py-[9px] px-[24px]">
+            <i class="fa-brands fa-app-store-ios text-[24px]"></i>
+            <div class="pl-1.5">
+            <p class="font-bold text-[18px]"><a href="https://apps.apple.com/us/app/birbank/id1293207342" target="_blank">App Store</a></p>
+            <p class="text-[12px]">mobil tətbiqi yüklə</p>
+            </div>
+          </div>
+          <!--  -->
+
+          <div class="bg-[#25282b] w-[190px] text-white items-center flex rounded-[10px] py-[9px] px-[24px] mt-6">
+            <i class="fa-brands fa-google-play text-[24px]"></i>
+            <div class="pl-1.5">
+            <p class="font-bold text-[18px]"><a href="https://play.google.com/store/apps/details?id=az.kapitalbank.mbanking&hl=en_IN&gl=AZ" target="_blank">Google Play</a></p>
+            <p class="text-[12px]">mobil tətbiqi yüklə</p>
+            </div>
+          </div>
+          
+        </div>
+        <div class="ml-6">
+            <img class="w-[144px]" src="https://strapi-aws-s3-images-bucket-kb.s3.eu-central-1.amazonaws.com/app_qr_7cfe3fc2be_c84b524da8.webp" alt="">
+        </div>
+
+        </div>
+
+        <div class="mt-8 mx-auto w-[360px] mb-10">
+          <img class="" src="https://strapi-aws-s3-images-bucket-kb.s3.eu-central-1.amazonaws.com/Cover_e7fb907fcc_1_0e4b35fc47_3680f7536c.webp" alt="">
+        </div>
+
+      </section>
+
+      <!--  -->
+
+        <section id="hesab" class="">
+          <div class="max-w-[1100px] mx-auto mb-25">
+
+            <div id="nav" class="flex justify-between mb-10 ">
+
+            <div>
+            <h3 class="text-[30px] font-medium">Faydasını hesabla</h3>
+            </div>
+
+            <div class="bg-[#f3f3f5] rounded-[10px]  inline-flex p- h-[44px]  items-center">
+              <button class="text-[16px] text-white bg-[#25282b] pr-6  pl-6 py-2 h-[44px]     rounded-[10px]  ">Nağd kredit</button>
+              <button class="text-[16px] px-6 text-[#9496ac]">Birbank kartı</button>
+              <button class="text-[16px] px-6 text-[#9496ac]">Depozit</button>
+            </div>
+
+            </div>
+
+            <div id="kredit" class="bg-[#f3f3f5] rounded-[10px] flex py-6  ">
+
+              <div id="sol" class="w-1/2 ">
+                <p class="text-[24px] font-semibold text-center pl-5 mb-4">Nağd krediti hesabla</p>
+
+                <div class="w-[380px] bg-white ml-auto rounded-t-[12px] ">
+                  <p class="pl-3 pt-2 text-[12px] text-[#9496AC]">Məbləğ</p>
+                  <p class="pl-4">10000</p>
+                  <input class="w-[380px] accent-[#ec3342] pb-0 block cursor-pointer " type="range" >
+                </div>
+
+                <div class="w-[380px] bg-white ml-auto mt-3  rounded-t-[12px]">
+                  <p class="pl-3 pt-2 text-[12px] text-[#9496AC]">Faiz</p>
+                  <p class="pl-4">11</p>
+                  <input class="w-[380px] accent-[#ec3342] pb-0 block cursor-pointer " type="range"  value="0">
+                </div>
+
+                <div class="w-[380px] bg-white ml-auto mt-3  rounded-t-[12px]">
+                  <p class="pl-3 pt-2 text-[12px] text-[#9496AC]">Müdddət (Ay)</p>
+                  <p class="pl-4">3</p>
+                  <input class="w-[380px] accent-[#ec3342] pb-0 block cursor-pointer " type="range"  value="0">
+                </div>
+                
+              </div>
+
+              <div id="sag" class="w-1/2">
+                <div class="bg-white rounded-[12px] w-[380px]  p-10 ml-6 mt-4">
+
+                  <div class="flex m-auto border-b border-[#f3f3f5]">
+                    <div class="w-[56px] h-[56px] rounded-full  bg-[#f3f3f5]">
+                      <img class="w-[44px] m-auto" src="https://strapi-aws-s3-images-bucket-kb.s3.eu-central-1.amazonaws.com/cash_loan_icon_841909f33a.svg" alt="">
+                    </div>
+                    <div class="">
+                    <p class="text-[24px] font-semibold pl-6">3394.63 ₼</p>
+                    <p class="text-[14px] font-semibold pl-6 pb-4">Aylıq ödəniş</p>
+                    </div>
+                  </div>
+
+                  <!-- <hr class="text-[#f3f3f5] w-4/5 text-center  pb-3"> -->
+
+                  <div>
+                    <p class="text-[12px] text-[#838383] mt-4"><i class="fa-solid fa-circle-info pr-1"></i>  Müştərilərimizə asanlıqla əldə edə biləcəkləri <br> taksit kartı təklif edirik.</p>
+                    <button class=" bg-[#ec3342] w-[300px] h-[56px] rounded-[12px] text-white mt-3"><a href="https://ccl.birbank.az/az/order/GTKR" target="_blank" >Sifariş et</a></button>
+                  </div>
+
+                </div>
+              </div>
+
+            </div>
+
+
+          </div>
+          
+        </section>
+
+
+        <section id="kartlar" class="">
+
+          <div class="max-w-[1100px] mx-auto bg-[#25282b] text-white flex mb-20 rounded-2xl">
+
+            <div id="sol" class=" w-[55%] p-10">
+              <p class="text-[32px] font-semibold">Birbank kartları ilə xüsusi təklif və imkanlardan yararlan</p> 
+              <p class="text-[16px] font-normal mt-4">Visa və MasterCard® beynəlxalq ödəniş sistemlərini dəstəkləyən <br> kartlarla dünyanın istənilən yerində ödənişlər etmək imkanına sahib ol.</p>
+              <button class="w-[230px] h-[56px] bg-white text-black text-[16px] font-normal mt-6 rounded-2xl"><a href="">Daha ətraflı <i class="fa-solid fa-angle-right "></i></a></button>
+            </div>
+
+            <div id="sag" class=" w-[45%]">
+              <img class="w-[320px] mt-10 ml-34 mx-auto" src="https://strapi-aws-s3-images-bucket-kb.s3.eu-central-1.amazonaws.com/ezgif_com_png_to_webp_converter_7_f373cbf5d8.webp" alt="">
+            </div>
+
+          </div>
+
+
+        </section>
+
+
+
+
+    </main>
+
+    <footer></footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+      });
+    </script>
+  </body>
+</html>
