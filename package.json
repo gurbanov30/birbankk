@@ -4,7 +4,7 @@
   "main": "index.html",
   "scripts": {
     "start": "serve",
-    "build": "echo Static template",
+    "build": "npx @tailwindcss/cli -i ./src/input.css -o ./src/output.css",
     "watch": "npx @tailwindcss/cli -i ./src/input.css -o ./src/output.css --watch"
   },
   "dependencies": {
@@ -12,7 +12,7 @@
     "tailwindcss": "^4.2.2"
   },
   "devDependencies": {
-    "serve": "^11.2.0"
+    "serve": "^14.2.0"
   },
   "tags": [
     "swiper"

@@ -5,21 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href="src/output.css" rel="stylesheet" />
     <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon" />
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
-      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
     <title>Birbank</title>
   </head>
   <body>
-    <header class="w-full border-b shadow-sm border-gray-300">
+    <header class="w-full ">
 
       <div class="xl:flex justify-between max-w-[1100px] mx-auto px-3  items-center hidden lg:flex" >
 
@@ -61,8 +52,8 @@
       <div class="border-b border-gray-200"></div>
       <!--  -->
 
-      <div class="flex max-w-[1100px] mx-auto justify-between px-5">
-        <img class="w-[120px] h-auto pt-10 pb-10 pl-6 lg:p-0" src="img/birlogo.svg" alt="" />
+      <div class="flex max-w-[1100px] mx-auto justify-between  items-center px- h-20 lg:h-24 ">
+        <img class="lg:w-[120px] w-[150px] h-auto pt-10 pb-10 pl-6 lg:p-0" src="img/birlogo.svg" alt="" />
         <ul class="flex gap-5 font-medium items-center pt-8 pb-8 text-[14px] tracking-wide text-[#9496ac] hidden lg:flex">
           <li class="border-b-3 border-transparent hover:border-red-500 hover:text">
             <a href="">Kartlar</a>
@@ -89,13 +80,14 @@
             <a href="">Xəbərlər</a>
           </li>
         </ul>
-        <div class="bg-red-500 lg:hidden w-12 h-12 flex items-center justify-center mt-9 mr-6 rounded-[6px]" >
-          <i class="fa-solid fa-bars text-white text-4xl"></i>
+        <div class="bg-red-500 lg:hidden w-8 h-8  flex items-center justify-center  mr-6 rounded-[4px]" >
+          <i class="fa-solid fa-bars text-white text-2xl "></i>
         </div>
       </div>
     </header>
 
     <main>
+
       <section id="hero">
         <div class="max-w-[1100px] mx-auto  ">
 
@@ -103,12 +95,12 @@
 
             <div class="swiper-wrapper">
 
-              <div class="swiper-slide flex bg-[#f3f3f5] justify-between overflow-hidden items-center" >
+              <div class="swiper-slide flex flex-wrap bg-[#f3f3f5] justify-between overflow-hidden items-center" >
                 <div class="flex">
                   <div id="sol" class="w-1/2 pl-14">
-                    <h1 class="text-[48px] font-bold text-[#25282b] leading-12 mt-6 ">Yığım hesabı ilə <br> 5000 AZN <br> səyahət kuponu</h1>
+                    <h1 class="text-[48px] font-bold text-[#25282b] leading-12 mt-12 ">Yığım hesabı ilə <br> 5000 AZN <br> səyahət kuponu</h1>
                     <p class="text-[18px]  text-[#898e93] tracking-wide mt-4"> "Səyahət" hədəfinə ən çox yığım edən qazanacaq</p>
-                    <div class="justify-center mt-16">
+                    <div class="justify-center mt-8">
                       <button class="bg-white text-[#ec3644] px-8 py-4 rounded-[8px] text-[16px]">
                         <a href="">Ətrafli <i class="fa-solid fa-arrow-right "></i></a>
                       </button>
@@ -125,9 +117,12 @@
               <div class="swiper-slide flex bg-[#f3f3f5] justify-between overflow-hidden items-center" >
                 <div class="flex">
                   <div id="sol" class="w-1/2 pl-14">
-                    <h1 class="text-[48px] font-bold text-[#25282b] leading-12 mt-6 ">Az faizli yaz <br> krediti</h1>
+                    <h1 class="text-[48px] font-bold text-[#25282b] leading-12 mt-12 ">Az faizli yaz <br> krediti</h1>
                     <p class="text-[18px]  text-[#898e93] tracking-wide mt-4"> Cari faizlərimizə 6%-dək endirim</p>
                     <div class="justify-center mt-16">
+                      <button class="bg-white text-[#ec3644] px-8 py-4 mr-2 rounded-[8px] text-[16px]">
+                        <a href="">Kredit götür <i class="fa-solid fa-arrow-right "></i></a>
+                      </button>
                       <button class="bg-white text-[#ec3644] px-8 py-4 rounded-[8px] text-[16px]">
                         <a href="">Ətrafli <i class="fa-solid fa-arrow-right "></i></a>
                       </button>
@@ -142,11 +137,14 @@
              <div class="swiper-slide flex bg-[#f3f3f5] justify-between overflow-hidden items-center" >
                 <div class="flex">
                   <div id="sol" class="w-1/2 pl-14">
-                    <h1 class="text-[48px] font-bold text-[#25282b] leading-12 mt-6 ">Qazandıran bahar <br> kampaniyası</h1>
+                    <h1 class="text-[48px] font-bold text-[#25282b] leading-12 mt-12 ">Qazandıran bahar <br> kampaniyası</h1>
                     <p class="text-[18px]  text-[#898e93] tracking-wide mt-4">Birbank taksit kartı ilə 50-dək bonus qazan!</p>
                     <div class="justify-center mt-16">
-                      <button class="bg-white text-[#ec3644] px-8 py-4 rounded-[8px] text-[16px]">
+                      <button class="bg-white text-[#ec3644] px-8 py-4 rounded-[8px] mr-2 text-[16px]">
                         <a href="">Ətrafli <i class="fa-solid fa-arrow-right "></i></a>
+                      </button>
+                      <button class="bg-white text-[#ec3644] px-8 py-4 rounded-[8px] text-[16px]">
+                        <a href="">Sifariş et <i class="fa-solid fa-arrow-right "></i></a>
                       </button>
                     </div>
                   </div>
@@ -159,11 +157,11 @@
               <div class="swiper-slide flex bg-[#f3f3f5] justify-between overflow-hidden items-center" >
                 <div class="flex">
                   <div id="sol" class="w-1/2 pl-14">
-                    <h1 class="text-[48px] font-bold text-[#25282b] leading-12 mt-6 ">Onlayn kredit <br> 5%-dək daha <br> sərfəli</h1>
+                    <h1 class="text-[48px] font-bold text-[#25282b] leading-12 mt-12 ">Onlayn kredit <br> 5%-dək daha <br> sərfəli</h1>
                     <p class="text-[18px]  text-[#898e93] tracking-wide mt-4"> 50 000 ₼-dək nağd pulu indi əldə et</p>
-                    <div class="justify-center mt-16">
+                    <div class="justify-center mt-8">
                       <button class="bg-white text-[#ec3644] px-8 py-4 rounded-[8px] text-[16px]">
-                        <a href="">Ətrafli <i class="fa-solid fa-arrow-right "></i></a>
+                        <a href="">Kredit götür <i class="fa-solid fa-arrow-right "></i></a>
                       </button>
                     </div>
                   </div>
@@ -176,9 +174,9 @@
               <div class="swiper-slide flex bg-[#f3f3f5] justify-between overflow-hidden items-center" >
                 <div class="flex">
                   <div id="sol" class="w-1/2 pl-14">
-                    <h1 class="text-[48px] font-bold text-[#25282b] leading-12 mt-6 ">Qarşınızda yeni <br> Birbank Platinum <br>kartlarımız</h1>
+                    <h1 class="text-[48px] font-bold text-[#25282b] leading-12 mt-12 ">Qarşınızda yeni <br> Birbank Platinum <br>kartlarımız</h1>
                     <p class="text-[18px]  text-[#898e93] tracking-wide mt-4"> Üstünlüklərdən yararlan</p>
-                    <div class="justify-center mt-16">
+                    <div class="justify-center mt-8">
                       <button class="bg-white text-[#ec3644] px-8 py-4 rounded-[8px] text-[16px]">
                         <a href="">Ətrafli <i class="fa-solid fa-arrow-right "></i></a>
                       </button>
@@ -188,13 +186,13 @@
                     <img class="w-[480px] h-auto" src="https://strapi-aws-s3-images-bucket-kb.s3.eu-central-1.amazonaws.com/BB_Platinum_Launch_480x304_c007954a74.png"  alt=""/>
                   </div>
                 </div>
-              </div>
+              </div>  
 
               <div class="swiper-slide flex bg-[#f3f3f5] justify-between overflow-hidden items-center" >
                 <div class="flex">
                   <div id="sol" class="w-1/2 pl-14">
-                    <h1 class="text-[48px] font-bold text-[#25282b] leading-12 mt-6 ">Qafqazın ilk tam <br> inteqrasiyalı <br> rəqəmsal <br> platforması </h1>
-                    <div class="justify-center mt-16">
+                    <h1 class="text-[48px] font-bold text-[#25282b] leading-12 mt-12 ">Qafqazın ilk tam <br> inteqrasiyalı <br> rəqəmsal <br> platforması </h1>
+                    <div class="justify-center mt-8">
                       <button class="bg-white text-[#ec3644] px-8 py-4 rounded-[8px] text-[16px]">
                         <a href="">Ətrafli <i class="fa-solid fa-arrow-right "></i></a>
                       </button>
@@ -209,9 +207,8 @@
               <div class="swiper-slide flex bg-[#f3f3f5] justify-between overflow-hidden items-center" >
                 <div class="flex">
                   <div id="sol" class="w-1/2 pl-14">
-                    <h1 class="text-[48px] font-bold text-[#25282b] leading-12 mt-6 ">Dələduzu necə<br>tanımaq olar?  </h1>
-                    <p class="text-[18px]  text-[#898e93] tracking-wide mt-4"> "Səyahət" hədəfinə ən çox yığım edən qazanacaq</p>
-                    <div class="justify-center mt-16">
+                    <h1 class="text-[48px] font-bold text-[#25282b] leading-12 mt-12 ">Dələduzu necə<br>tanımaq olar?  </h1>
+                    <div class="justify-center mt-30">
                       <button class="bg-white text-[#ec3644] px-8 py-4 rounded-[8px] text-[16px]">
                         <a href="">Ətrafli <i class="fa-solid fa-arrow-right "></i></a>
                       </button>
@@ -220,7 +217,7 @@
                   <div id="sag" class="w-1/2">
                     <img class="w-[480px] h-auto" src="https://strapi-aws-s3-images-bucket-kb.s3.eu-central-1.amazonaws.com/ezgif_com_png_to_webp_converter_1_9a0a5f9088.webp"  alt=""/>
                   </div>
-                </div>
+                </div>  
               </div>
 
               
@@ -233,27 +230,39 @@
 
           <div class="grid grid-cols-1 md:grid-cols-6 gap-[22px] w-full p-6 bg-[#f3f3f5] rounded-b-[10px]">
 
-            <div class="col-span-1 md:col-span-3 bg-white rounded-[10px] p-5 shadow-sm min-h-[180px] relative overflow-hidden flex flex-col ">
-              <div class="w-2/3 pr- z-10">
-                <h2 class=" text-[20px] font-semibold text-gray-950"> Birbank Star kartı </h2>
-                <p class="text-gray-500 text-[#8c939a] text-[14px] "> Üstünlüklərlə dolu bu kartla <br />ürəyincə xərclə, məbləği ay <br />sonu geri qaytardıqda əlavə heç <br />nə ödəmə</p>
+            <div class="col-span-1 md:col-span-3 bg-white rounded-[10px] p-5 shadow-sm min-h-[180px] relative overflow-hidden flex flex-col">
+              <div class="w-2/3 z-10">
+                <h2 class="text-[20px] font-semibold text-gray-950">Birbank Star kartı</h2>
+                
+                <p class="text-gray-500 text-[#8c939a] text-[14px]">
+                  Üstünlüklərlə dolu bu kartla <br class="hidden md:block" />
+                  ürəyincə xərclə, məbləği ay <br class="hidden md:block" />
+                  sonu geri qaytardıqda əlavə heç <br class="hidden md:block" />
+                  nə ödəmə
+                </p>
               </div>
-              <div class="absolute bottom-0 right-0 w-[250px] h-auto translate-y-4" >
+
+              <div class="absolute bottom-0 right-0 w-[160px] md:w-[250px] h-auto translate-y-4">
                 <img class="w-full h-auto object-contain object-bottom" src="https://strapi-aws-s3-images-bucket-kb.s3.eu-central-1.amazonaws.com/star_kart_99e6f4ab5b.webp" alt="Birbank Star Kartı"/>
               </div>
             </div>
 
             <!-- 2 -->
 
-            <div class="col-span-1 md:col-span-3 bg-white rounded-[10px] p-5 shadow-sm flex min-h-[180px]" >
-              <div class="">
-              <h2 class="text-[20px] font-semibold">Nağd pul krediti</h2>
-              <p class="text-gray-500 text mt-2 text-[14px]">50 000 AZN-dək krediti sərfəli <br> şərtlərlə, asanlıqla və çox qısa <br> zamanda əldə et</p>
-              </div>
-              <div class="w-[250px] bottom-0 right-0">
-                <img class="" src="https://strapi-aws-s3-images-bucket-kb.s3.eu-central-1.amazonaws.com/cash_loan_e585a43efc_bc3418bb12.webp" alt=""/>
-              </div>
+           <div class="col-span-1 md:col-span-3 bg-white rounded-[10px] p-5 shadow-sm min-h-[180px] relative overflow-hidden flex flex-col">
+            <div class="z-10 w-2/3">
+              <h2 class="text-[20px] font-semibold text-gray-950">Nağd pul krediti</h2>
+              <p class="text-gray-500 mt-2 text-[14px] text-[#8c939a]">
+                50 000 AZN-dək krediti sərfəli <br class="hidden md:block" /> 
+                şərtlərlə, asanlıqla və çox qısa <br class="hidden md:block" /> 
+                zamanda əldə et
+              </p>
             </div>
+
+            <div class="absolute bottom-0 right-0 w-[160px] md:w-[250px] h-auto">
+              <img class="w-full h-auto object-contain object-bottom" src="https://strapi-aws-s3-images-bucket-kb.s3.eu-central-1.amazonaws.com/cash_loan_e585a43efc_bc3418bb12.webp" alt="Nağd pul krediti"/>
+            </div>
+          </div>
 
             <!-- 3 -->
 
@@ -292,110 +301,119 @@
         </div>
       </section>
 
-      <section id="mobil"> 
-        <div class=" text-center mt-22">
-          <h2 class="font-semibold text-[#25282b] text-6xl">Yenilənmiş mobil <br> tətbiqimiz hər zaman <br> xidmətindədir.</h2>
-          <p  class="mt-1.5 text-[18px]">iOS və Android əməliyyat sistemlərində mövcuddur.</p>
-        </div>
-
-        <div id="ikisi" class="flex items-center justify-center mt-10">
-        <div class=" ">
-          <div class="bg-[#25282b] w-[190px] text-white items-center flex rounded-[10px] py-[9px] px-[24px]">
-            <i class="fa-brands fa-app-store-ios text-[24px]"></i>
-            <div class="pl-1.5">
-            <p class="font-bold text-[18px]"><a href="https://apps.apple.com/us/app/birbank/id1293207342" target="_blank">App Store</a></p>
-            <p class="text-[12px]">mobil tətbiqi yüklə</p>
-            </div>
+      <section id="mobil" class="bg-none md:bg-center md:bg-no-repeat  md:bg-[url('https://strapi-aws-s3-images-bucket-kb.s3.eu-central-1.amazonaws.com/mobile_widget_bg_0f0cb4d27c.png')] py-10"> 
+  
+          <div class="text-center mt-10 md:mt-22 px-4">
+              <h2 class="font-semibold text-[#25282b] text-3xl md:text-6xl leading-tight">
+                  Yenilənmiş mobil <br class="hidden md:block"> tətbiqimiz hər zaman <br class="hidden md:block"> xidmətindədir.
+              </h2>
+              <p class="mt-4 text-[16px] md:text-[18px]">iOS və Android əməliyyat sistemlərində mövcuddur.</p>
           </div>
-          <!--  -->
 
-          <div class="bg-[#25282b] w-[190px] text-white items-center flex rounded-[10px] py-[9px] px-[24px] mt-6">
-            <i class="fa-brands fa-google-play text-[24px]"></i>
-            <div class="pl-1.5">
-            <p class="font-bold text-[18px]"><a href="https://play.google.com/store/apps/details?id=az.kapitalbank.mbanking&hl=en_IN&gl=AZ" target="_blank">Google Play</a></p>
-            <p class="text-[12px]">mobil tətbiqi yüklə</p>
-            </div>
+          <div id="ikisi" class="flex flex-col md:flex-row items-center justify-center mt-10 gap-6">
+              
+              <div class="flex flex-col gap-4">
+                  <div class="bg-[#25282b] w-[190px] text-white items-center flex rounded-[10px] py-[9px] px-[24px]">
+                      <i class="fa-brands fa-app-store-ios text-[24px]"></i>
+                      <div class="pl-1.5">
+                          <p class="font-bold text-[18px]">
+                              <a href="https://apps.apple.com/us/app/birbank/id1293207342" target="_blank">App Store</a>
+                          </p>
+                          <p class="text-[12px]">mobil tətbiqi yüklə</p>
+                      </div>
+                  </div>
+
+                  <div class="bg-[#25282b] w-[190px] text-white items-center flex rounded-[10px] py-[9px] px-[24px]">
+                      <i class="fa-brands fa-google-play text-[24px]"></i>
+                      <div class="pl-1.5">
+                          <p class="font-bold text-[18px]">
+                              <a href="https://play.google.com/store/apps/details?id=az.kapitalbank.mbanking&hl=en_IN&gl=AZ" target="_blank">Google Play</a>
+                          </p>
+                          <p class="text-[12px]">mobil tətbiqi yüklə</p>
+                      </div>
+                  </div>
+              </div>
+
+              <div class="hidden md:block ml-6">
+                  <img class="w-[144px]" src="https://strapi-aws-s3-images-bucket-kb.s3.eu-central-1.amazonaws.com/app_qr_7cfe3fc2be_c84b524da8.webp" alt="QR Code">
+              </div>
           </div>
-          
-        </div>
-        <div class="ml-6">
-            <img class="w-[144px]" src="https://strapi-aws-s3-images-bucket-kb.s3.eu-central-1.amazonaws.com/app_qr_7cfe3fc2be_c84b524da8.webp" alt="">
-        </div>
 
-        </div>
-
-        <div class="mt-8 mx-auto w-[360px] mb-10">
-          <img class="" src="https://strapi-aws-s3-images-bucket-kb.s3.eu-central-1.amazonaws.com/Cover_e7fb907fcc_1_0e4b35fc47_3680f7536c.webp" alt="">
-        </div>
+          <div class="mt-10 mx-auto w-full max-w-[400px] px-6 mb-10">
+              <img class="w-full h-auto" src="https://strapi-aws-s3-images-bucket-kb.s3.eu-central-1.amazonaws.com/Cover_e7fb907fcc_1_0e4b35fc47_3680f7536c.webp" alt="App Cover">
+          </div>
 
       </section>
 
-      <!--  -->
+      <!-- ozumun notlaridi ai yazmiyib:) -->
 
         <section id="hesab" class="">
-          <div class="max-w-[1100px] mx-auto mb-25">
+          <div class="max-w-[1100px] mx-auto mb-25 ">
 
-            <div id="nav" class="flex justify-between mb-10 ">
+            <div id="nav" class="flex flex-wrap justify-between mb-10 ">
 
             <div>
-            <h3 class="text-[30px] font-medium">Faydasını hesabla</h3>
+            <h3 class="text-[30px] ml-3 font-medium">Faydasını hesabla</h3>
             </div>
 
-            <div class="bg-[#f3f3f5] rounded-[10px]  inline-flex p- h-[44px]  items-center">
-              <button class="text-[16px] text-white bg-[#25282b] pr-6  pl-6 py-2 h-[44px]     rounded-[10px]  ">Nağd kredit</button>
-              <button class="text-[16px] px-6 text-[#9496ac]">Birbank kartı</button>
-              <button class="text-[16px] px-6 text-[#9496ac]">Depozit</button>
+            <div class="bg-[#f3f3f5] ml-3 rounded-[10px]  inline-flex mt-3 h-[44px]  mx- md:px-3 items-center">
+              <button class="text-[16px] md:px-8 text-white bg-[#25282b] px-2  pl- py- h-[44px]     rounded-[10px]  ">Nağd kredit</button>
+              <button class="text-[16px] md:px-8 px-2 text-[#9496ac]">Birbank kartı</button>
+              <button class="text-[16px] md:px-8 px-2 text-[#9496ac]">Depozit</button>
             </div>
 
             </div>
 
-            <div id="kredit" class="bg-[#f3f3f5] rounded-[10px] flex py-6  ">
+            <div id="kredit" class="bg-[#f3f3f5] rounded-[10px] flex flex-col md:flex-row py-6 px-4 md:px-0">
 
-              <div id="sol" class="w-1/2 ">
-                <p class="text-[24px] font-semibold text-center pl-5 mb-4">Nağd krediti hesabla</p>
+                <div id="sol" class="w-full md:w-1/2 md:ml-0"> 
+                  <div class="">
+                    <p class="text-[24px] text-[#25282b] font-semibold text-center pr-36  mb-4">Nağd krediti hesabla</p>
 
-                <div class="w-[380px] bg-white ml-auto rounded-t-[12px] ">
-                  <p class="pl-3 pt-2 text-[12px] text-[#9496AC]">Məbləğ</p>
-                  <p class="pl-4">10000</p>
-                  <input class="w-[380px] accent-[#ec3342] pb-0 block cursor-pointer " type="range" >
-                </div>
-
-                <div class="w-[380px] bg-white ml-auto mt-3  rounded-t-[12px]">
-                  <p class="pl-3 pt-2 text-[12px] text-[#9496AC]">Faiz</p>
-                  <p class="pl-4">11</p>
-                  <input class="w-[380px] accent-[#ec3342] pb-0 block cursor-pointer " type="range"  value="0">
-                </div>
-
-                <div class="w-[380px] bg-white ml-auto mt-3  rounded-t-[12px]">
-                  <p class="pl-3 pt-2 text-[12px] text-[#9496AC]">Müdddət (Ay)</p>
-                  <p class="pl-4">3</p>
-                  <input class="w-[380px] accent-[#ec3342] pb-0 block cursor-pointer " type="range"  value="0">
-                </div>
-                
-              </div>
-
-              <div id="sag" class="w-1/2">
-                <div class="bg-white rounded-[12px] w-[380px]  p-10 ml-6 mt-4">
-
-                  <div class="flex m-auto border-b border-[#f3f3f5]">
-                    <div class="w-[56px] h-[56px] rounded-full  bg-[#f3f3f5]">
-                      <img class="w-[44px] m-auto" src="https://strapi-aws-s3-images-bucket-kb.s3.eu-central-1.amazonaws.com/cash_loan_icon_841909f33a.svg" alt="">
+                    <div class="w-full max-w-[380px] bg-white mx-auto md:ml-auto rounded-t-[12px]">
+                        <p class="pl-3 pt-2 text-[12px] text-[#9496AC]">Məbləğ</p>
+                        <p class="pl-4">10000</p>
+                        <input class="w-full accent-[#ec3342] pb-0 block cursor-pointer" type="range">
                     </div>
-                    <div class="">
-                    <p class="text-[24px] font-semibold pl-6">3394.63 ₼</p>
-                    <p class="text-[14px] font-semibold pl-6 pb-4">Aylıq ödəniş</p>
+
+                    <div class="w-full max-w-[380px] bg-white mx-auto md:ml-auto mt-3 rounded-t-[12px]">
+                        <p class="pl-3 pt-2 text-[12px] text-[#9496AC]">Faiz</p>
+                        <p class="pl-4">11</p>
+                        <input class="w-full accent-[#ec3342] pb-0 block cursor-pointer" type="range" value="0">
+                    </div>
+
+                    <div class="w-full max-w-[380px] bg-white mx-auto md:ml-auto mt-3 rounded-t-[12px]">
+                        <p class="pl-3 pt-2 text-[12px] text-[#9496AC]">Müdddət (Ay)</p>
+                        <p class="pl-4">3</p>
+                        <input class="w-full accent-[#ec3342] pb-0 block cursor-pointer" type="range" value="0">
                     </div>
                   </div>
-
-                  <!-- <hr class="text-[#f3f3f5] w-4/5 text-center  pb-3"> -->
-
-                  <div>
-                    <p class="text-[12px] text-[#838383] mt-4"><i class="fa-solid fa-circle-info pr-1"></i>  Müştərilərimizə asanlıqla əldə edə biləcəkləri <br> taksit kartı təklif edirik.</p>
-                    <button class=" bg-[#ec3342] w-[300px] h-[56px] rounded-[12px] text-white mt-3"><a href="https://ccl.birbank.az/az/order/GTKR" target="_blank" >Sifariş et</a></button>
-                  </div>
-
                 </div>
-              </div>
+
+                <div id="sag" class="w-full md:w-1/2 mt-6 md:mt-0">
+                    <div class="bg-white rounded-[12px] w-full max-w-[380px] p-6 md:p-10 mx-auto md:ml-6 md:mt-4">
+
+                        <div class="flex m-auto border-b border-[#f3f3f5]">
+                            <div class="w-[56px] h-[56px] rounded-full bg-[#f3f3f5] shrink-0">
+                                <img class="w-[44px] m-auto" src="https://strapi-aws-s3-images-bucket-kb.s3.eu-central-1.amazonaws.com/cash_loan_icon_841909f33a.svg" alt="">
+                            </div>
+                            <div>
+                                <p class="text-[20px] md:text-[24px] font-semibold pl-6">3394.63 ₼</p>
+                                <p class="text-[14px] font-semibold pl-6 pb-4">Aylıq ödəniş</p>
+                            </div>
+                        </div>
+
+                        <div>
+                            <p class="text-[12px] text-[#838383] mt-4">
+                                <i class="fa-solid fa-circle-info pr-1"></i> Müştərilərimizə asanlıqla əldə edə biləcəkləri <br class="hidden md:block"> taksit kartı təklif edirik.
+                            </p>
+                            <button class="bg-[#ec3342] w-full h-[56px] rounded-[12px] text-white mt-3">
+                                <a href="https://ccl.birbank.az/az/order/GTKR" target="_blank" class="block w-full h-full flex items-center justify-center">Sifariş et</a>
+                            </button>
+                        </div>
+
+                    </div>
+                </div>
 
             </div>
 
@@ -405,31 +423,394 @@
         </section>
 
 
-        <section id="kartlar" class="">
+        <section id="kartlar" class="px-4"> 
 
-          <div class="max-w-[1100px] mx-auto bg-[#25282b] text-white flex mb-20 rounded-2xl">
+          <div class="max-w-[1100px] mx-auto bg-[#25282b] text-white flex flex-col md:flex-row mb-20 rounded-2xl overflow-hidden">
 
-            <div id="sol" class=" w-[55%] p-10">
-              <p class="text-[32px] font-semibold">Birbank kartları ilə xüsusi təklif və imkanlardan yararlan</p> 
-              <p class="text-[16px] font-normal mt-4">Visa və MasterCard® beynəlxalq ödəniş sistemlərini dəstəkləyən <br> kartlarla dünyanın istənilən yerində ödənişlər etmək imkanına sahib ol.</p>
-              <button class="w-[230px] h-[56px] bg-white text-black text-[16px] font-normal mt-6 rounded-2xl"><a href="">Daha ətraflı <i class="fa-solid fa-angle-right "></i></a></button>
+                <div id="sol" class="w-full md:w-[55%] p-6 md:p-10 order-1">
+                    <p class="text-[20px] md:text-[32px] font-semibold leading-tight">Birbank kartları ilə xüsusi təklif və imkanlardan yararlan</p> 
+                    <p class="text-[14px] md:text-[16px]  mt-4 ">
+                        Visa və MasterCard® beynəlxalq ödəniş sistemlərini dəstəkləyən <br class="hidden md:block"> 
+                        kartlarla dünyanın istənilən yerində ödənişlər etmək imkanına sahib ol.
+                    </p>
+                    
+                    <button class="w-full w-[100px] md:w-[230px] h-[56px] bg-white text-black text-[16px] mt-6 rounded-[12px]">
+                        <a href="" class="flex items-center justify-center gap-2 w-full h-full">Daha ətraflı <i class="fa-solid fa-angle-right"></i> </a>
+                    </button>
+                </div>
+
+                <div id="sag" class="w-full md:w-[45%] order-2">
+                    <img class="w-[280px] md:w-[320px] mt-4 md:mt-10 md:ml-34 mx-auto block" src="https://strapi-aws-s3-images-bucket-kb.s3.eu-central-1.amazonaws.com/ezgif_com_png_to_webp_converter_7_f373cbf5d8.webp"  alt="Birbank kartları">
+                </div>  
+
             </div>
-
-            <div id="sag" class=" w-[45%]">
-              <img class="w-[320px] mt-10 ml-34 mx-auto" src="https://strapi-aws-s3-images-bucket-kb.s3.eu-central-1.amazonaws.com/ezgif_com_png_to_webp_converter_7_f373cbf5d8.webp" alt="">
-            </div>
-
-          </div>
-
 
         </section>
 
 
+        <section id="three">
+
+          <div id="" class="max-w-[1100px] mx-auto mb-25 ">
+
+            <div class="grid grid-cols-1 md:grid-cols-4 md:grid-rows-4 gap-[30px] md:h-screen ml-3 mr-3  md:mr-0 md:ml-0">
+    
+                <div class=" overflow-hidden h-[200px] md:h-full md:col-span-2 md:row-span-2 rounded-[10px] bg-[#fdf0f1] flex text-gray-800 text-2xl">
+                    <div  class="w-1/2 z-60">
+                      <p class="pt-4 pl-8 text-[24px] md:text-[42px] font-medium">Onlayn <br> kredit</p>
+                      <p class="pl-8 text-[12px] md:text-[14px] pt-0.5">Krediti banka gəlmədən və növbə  gözləmədən əldə et</p>
+                      <button class="tracking-wide font-medium pt-10 md:pt-15 text-[#ec3644] pl-8 px-5 py-2   rounded-[8px] text-[16px] ">
+                        <a href="">Sifariş et  <i class="fa-solid fa-arrow-right "></i></a>
+                      </button>
+                    </div>
+
+                    <div class="w-1/2">
+                      <img class="w-[270px]" src="https://strapi-aws-s3-images-bucket-kb.s3.eu-central-1.amazonaws.com/ezgif_com_png_to_webp_converter_8_009dab9c71.webp" alt="">
+                    </div>
+                </div>
+
+                <div class="overflow-hidden h-[200px] md:h-full md:col-span-2 md:row-span-2 md:col-start-1 md:row-start-3 rounded-[10px] bg-[#f3f3f5] flex  justify-center text-gray-800 text-2xl">
+                    <div  class="w-1/2 z-60">
+                      <p class="pt-4 pl-8 text-[24px] md:text-[42px] font-medium">Depozit</p>
+                      <p class="pl-8 pt-2 text-[12px] md:text-[14px] pt-0.5">İstər filialda, istərsə də onlayn depozit yerləşdir, qazancını çoxalt</p>
+                      <button class="tracking-wide font-medium pt-10 md:pt-28 text-[#ec3644] pl-8 px-5 py-2  rounded-[8px] text-[16px] ">
+                        <a href="">Sifariş et  <i class="fa-solid fa-arrow-right "></i></a>
+                      </button>
+                    </div>
+
+                    <div class="w-1/2">
+                      <img class="w-[270px]" src="https://strapi-aws-s3-images-bucket-kb.s3.eu-central-1.amazonaws.com/ezgif_com_png_to_webp_converter_9_f694d5ce45.webp" alt="">
+                    </div>
+                </div>
+
+                <div class="relative bg-[url(https://strapi-aws-s3-images-bucket-kb.s3.eu-central-1.amazonaws.com/birbank_kampaniyalar_ee36563933.webp)] bg-cover bg-center h-[200px] md:h-full md:col-span-2 md:row-span-4 md:col-start-3 md:row-start-1 rounded-[10px] bg-red-500 p-6 text-white ">
+                  <p class="text-[24px] md:text-[42px]">Kampaniyalar</p>
+                  <p class="text-[12px] md:text-[16px] pt-1">Sərfəli təklif və endirimlərimizi vaxt <br> itirmədən dəyərləndir</p>
+                  <button class="bg-white absolute bottom-6 left-6 text-[#ec3644] px-5 py-2  rounded-[8px] text-[16px] ">
+                        <a href="">Daha ətrafli <i class="fa-solid fa-arrow-right "></i></a>
+                  </button>
+                </div>
+            </div>
+
+
+
+          </div>
+
+        </section>
+
+
+        <section id="xeberler">
+
+          <div class="max-w-[1100px] mx-auto mb-25">
+
+            <div id="x" class="flex justify-between items-end ml-3 mr-3 md:ml-0 md:mr-0 mb-10">
+              <h2 class="text-3xl font-bold text-[#25282b]">Xəbərlər</h2>
+              <a href="" class="text-[#ec3342] font-medium flex items-center gap-1 ">Bütün xəbərlər <i class="fa-solid fa-arrow-right pt-1"></i></a>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mr-3 ml-3 md:ml-0 md:mr-0 ">
+
+                <div class=" cursor-pointer border border-gray-100 rounded-[12px]">
+
+                  <div class="overflow-hidden rounded-t-[12px]   ">
+                    <img src="https://strapi-aws-s3-images-bucket-kb.s3.eu-central-1.amazonaws.com/Yigim_hesabi_s_yah_t_kampaniyasi_1x1_6e4daa0ef7.png" alt="" class="w-full  object-cover "/>
+                  </div>
+
+                  <div class="  p-6">
+                    <h3 class="text-[16px] font-bold leading-tight text-[#25282b] ">Birbank-ın "Səyahət marafonu" kampaniyası ilə dünyanı kəşf edin</h3>
+                    <p class="pt-5 text-[14px] text-gray-400 font-medium">2026-04-14</p>
+                  </div>
+
+                </div>
+
+                <div class=" cursor-pointer border border-gray-100 rounded-[12px]">
+
+                  <div class="overflow-hidden rounded-t-[12px]  border border-gray-100">
+                    <img src="https://strapi-aws-s3-images-bucket-kb.s3.eu-central-1.amazonaws.com/Birbank_Invest_PASHA_Bank_IPO_1000x1000_14a033008e.png" alt="Birbank Invest" class="w-full  object-cover "/>
+                  </div>
+
+                  <div class=" p-6">
+                    <h3 class="text-[16px] font-bold leading-tight text-[#25282b] " >Birbank Invest-lə PAŞA Bank səhmdarı ol</h3>
+                    <p class="pt-5 text-[14px] text-gray-400 font-medium">2026-04-13</p>
+                  </div>
+
+                </div>
+
+                <div class=" cursor-pointer border border-gray-100 rounded-[12px]">
+
+                  <div class="overflow-hidden rounded-t-[12px]  border border-gray-100" >
+                    <img src="https://strapi-aws-s3-images-bucket-kb.s3.eu-central-1.amazonaws.com/Qazandiran_bahar_1x1_1cf3d5f5e1.png" alt="Qazandıran bahar" class="w-full  object-cover  "/>
+                  </div>
+
+                  <div class=" p-6">
+                    <h3 class="text-[16px] font-bold leading-tight text-[#25282b] " > Birbank-ın "Qazandıran bahar" kampaniyası ilə əlavə bonuslar qazanın </h3>
+                    <p class="pt-5 text-[14px] text-gray-400 font-medium">2026-04-02</p>
+                  </div>
+
+                </div>
+
+            </div>
+
+         </div>
+
+        </section>
+
+
+     <section id="valt" class="bg-white py-4 px-4 md:px-16 relative">
+        <div class="max-w-[1100px] mx-auto mb-20">
+          <h2 class="text-3xl font-semibold mb-6 text-gray-900">Xidmətlər</h2>
+          
+          <div class="grid grid-cols-1 lg:grid-cols-4 lg:grid-rows-6 gap-[20px]">
+            
+            <div class="lg:col-span-2 lg:row-span-6 bg-[#f9f9fa] rounded-xl p-5 border border-gray-100 flex flex-col justify-between ">
+              <div>
+                <h3 class="text-2xl font-semibold mb-4 text-black">Valyuta məzənnələri</h3>
+
+                <div class="flex bg-gray-200/40 w-fit p-1 rounded-xl mb-6">
+                  <button class="px-5 py-1.5 bg-[#2d2e32] text-white rounded-lg text-sm font-medium">Alış</button>
+                  <button class="px-5 py-1.5 text-[#707070] rounded-lg text-sm font-medium">Satış</button>
+                </div>
+
+                <div>
+                  <div class="grid grid-cols-4 text-[15px] font-semibold text-black mb-4 px-1">
+                    <div>Valyuta</div>
+                    <div class="text-center">Mərkəzi Bank</div>
+                    <div class="text-center">Nağd</div>
+                    <div class="text-center">Nağdsız</div>
+                  </div>
+
+                  <div class="space-y-4">
+                    <div class="grid grid-cols-4 items-center px-1">
+                      <div class="flex items-center gap-2">
+                        <img src="https://www.worldometers.info/images/flags/w240/us.webp" alt="" class="w-8 h-6 object-cover rounded-[2px]" />
+                        <span class="font-medium text-black text-[17px]">USD</span>
+                      </div>
+                      <div class="text-center text-[#4d4d4d] text-[15px] font-medium">1.7000</div>
+                      <div class="text-center text-[#4d4d4d] text-[15px] font-medium">1.6970</div>
+                      <div class="text-center text-[#4d4d4d] text-[15px] font-medium">1.6990</div>
+                    </div>
+
+                    <div class="grid grid-cols-4 items-center px-1">
+                      <div class="flex items-center gap-2">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/Flag_of_Europe.svg/1920px-Flag_of_Europe.svg.png?_=20260220050732" alt="" class="w-8 h-6 object-cover rounded-[2px]" />
+                        <span class="font-medium text-black text-[17px]">EUR</span>
+                      </div>
+                      <div class="text-center text-[#4d4d4d] text-[15px] font-medium">1.9990</div>
+                      <div class="text-center text-[#4d4d4d] text-[15px] font-medium">1.9740</div>
+                      <div class="text-center text-[#4d4d4d] text-[15px] font-medium">1.9540</div>
+                    </div>
+
+                    <div class="grid grid-cols-4 items-center px-1">
+                      <div class="flex items-center gap-2">
+                        <img src="https://www.worldometers.info/images/flags/w240/gb.webp" alt="" class="w-8 h-6 object-cover rounded-[2px]" />
+                        <span class="font-medium text-black text-[17px]">GBP</span>
+                      </div>
+                      <div class="text-center text-[#4d4d4d] text-[15px] font-medium">2.2958</div>
+                      <div class="text-center text-[#4d4d4d] text-[15px] font-medium">2.2508</div>
+                      <div class="text-center text-[#4d4d4d] text-[15px] font-medium">2.2508</div>
+                    </div>
+
+                    <div class="grid grid-cols-4 items-center px-1">
+                      <div class="flex items-center gap-2">
+                        <img src="https://www.worldometers.info/images/flags/w240/ru.webp" alt="" class="w-8 h-6 object-cover rounded-[2px]" />
+                        <span class="font-medium text-black text-[17px]">100 RUB</span>
+                      </div>
+                      <div class="text-center text-[#4d4d4d] text-[15px] font-medium">2.2393</div>
+                      <div class="text-center text-[#4d4d4d] text-[15px] font-medium">1.9900</div>
+                      <div class="text-center text-[#4d4d4d] text-[15px] font-medium">1.7800</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="flex justify-between items-center mt-6 pt-2">
+                <p class="text-[14px] text-[#747474] font-normal">Kurslar bu tarixdə təyin edilmişdir: 20-4-2026</p>
+                <a href="#" class="text-[#f05a5f] text-[15px] font-semibold flex items-center gap-1">
+                  Bütün məzənnələr <i class="fa-solid fa-arrow-right pt-1"></i>
+                </a>
+              </div>
+            </div>
+
+            <!-- sag kartlar 1 -->
+
+            <div class="lg:col-span-2 lg:row-span-2 lg:col-start-3 bg-[#f3f3f5] rounded-xl p-5 border border-gray-100 flex justify-between items-start lg:items-center overflow-hidden relative shadow-sm h-[200px] lg:h-full">
+                <div class="z-10">
+                  <h4 class="text-[24px] font-semibold text-black leading-tight">Xidmət şəbəkəsi</h4>
+                  <p class="text-[14px] text-[#707070] mt-1.5 font-medium">Sənə ən yaxın filial və bankomatı tap</p>
+                </div>
+                <div class="absolute right-2 -bottom-4 lg:bottom-0">
+                  <img src="https://strapi-aws-s3-images-bucket-kb.s3.eu-central-1.amazonaws.com/service_network_d79e752cee_c2ec434a57.webp" 
+                      class="w-[200px] lg:w-[220px] h-[120px] lg:h-[100px] object-contain object-right object-bottom" />
+                </div>
+              </div>
+
+              <!-- 2 -->
+
+              <div class="lg:col-span-2 lg:row-span-2 lg:col-start-3 lg:row-start-3 bg-[#f3f3f5] rounded-xl p-5 border border-gray-100 flex justify-between items-start lg:items-center overflow-hidden relative shadow-sm h-[200px] lg:h-full">
+                <div class="z-10">
+                  <h4 class="text-[24px] font-semibold text-black leading-tight">Necə etməli</h4>
+                  <p class="text-[14px] text-[#707070] mt-1.5 font-medium max-w-[200px]">Məhsul və xidmətlərimizdən rahat istifadə üçün təlimatlar</p>
+                </div>
+                <div class="absolute right-2 -bottom-4 lg:bottom-0">
+                  <img src="https://strapi-aws-s3-images-bucket-kb.s3.eu-central-1.amazonaws.com/how_to_313efa7618_5098741f02.webp" 
+                      class="w-[200px] lg:w-[220px] h-[120px] lg:h-[100px] object-contain object-right object-bottom" />
+                </div>
+              </div>
+
+              <!-- 3 -->
+
+              <div class="lg:col-span-2 lg:row-span-2 lg:col-start-3 lg:row-start-5 bg-[#f3f3f5] rounded-xl p-5 border border-gray-100 flex justify-between items-start lg:items-center overflow-hidden relative shadow-sm h-[200px] lg:h-full">
+                <div class="z-10">
+                  <h4 class="text-[24px] font-semibold text-black leading-tight">Tez-tez verilən suallar</h4>
+                  <p class="text-[14px] text-[#707070] mt-1.5 font-medium max-w-[200px]">Sual-cavabları sənin üçün bir araya gətirdik</p>
+                </div>
+                <div class="absolute right-2 -bottom-4 lg:bottom-0">
+                  <img src="https://strapi-aws-s3-images-bucket-kb.s3.eu-central-1.amazonaws.com/faq_d65e355c7e_653e8b9cfa.webp" 
+                      class="w-[200px] lg:w-[220px] h-[120px] lg:h-[100px] object-contain object-right object-bottom" />
+                </div>
+              </div>
+
+            <!--  -->
+
+          </div>
+        </div>
+
+        
+      </section>
 
 
     </main>
 
-    <footer></footer>
+  <footer class="bg-[#25282b] text-white py-12 px-4">
+  <div class="max-w-[1100px] mx-auto">
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-8 pb-12 border-b border-b-[#595959]">
+      <div class="lg:col-span-1">
+        <img class="" src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4NCjwhLS0gR2VuZXJhdG9yOiBBZG9iZSBJbGx1c3RyYXRvciAyOC4zLjAsIFNWRyBFeHBvcnQgUGx1Zy1JbiAuIFNWRyBWZXJzaW9uOiA2LjAwIEJ1aWxkIDApICAtLT4NCjxzdmcgdmVyc2lvbj0iMS4xIiBpZD0iTGF5ZXJfMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgeD0iMHB4IiB5PSIwcHgiDQoJIHZpZXdCb3g9IjAgMCA2ODUgMjQ4LjIiIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgMCAwIDY4NSAyNDguMjsiIHhtbDpzcGFjZT0icHJlc2VydmUiPg0KPHN0eWxlIHR5cGU9InRleHQvY3NzIj4NCgkuc3Qwe2ZpbGw6I0ZGMDAzOTt9DQo8L3N0eWxlPg0KPGc+DQoJPHBhdGggY2xhc3M9InN0MCIgZD0iTTU5LjgsMzkuNWMwLTMuNi0yLTQuMy00LjQtMi45TDcuNyw2NC4yYy0zLjIsMS44LTQuNCw0LjktNC40LDcuOXYxMzYuNmMwLDMuNiwyLDQuMyw0LjQsMi45TDU1LjQsMTg0DQoJCWMzLjItMS44LDQuNC00LjksNC40LTcuOVYzOS41eiIvPg0KCTxwYXRoIGNsYXNzPSJzdDAiIGQ9Ik0xMTYuMiwxMjguOXYtNzRoMTcuOXYzOS45YzUuOS03LjMsMTUuNS0xMi4yLDI2LjktMTIuMmMyMS44LDAsMzkuMywxNy4zLDM5LjMsNDEuNnY1LjQNCgkJYzAsMjQtMTcuOCw0MS40LTQyLjQsNDEuNEMxMzQuNiwxNzAuOSwxMTYuMiwxNTUuMywxMTYuMiwxMjguOUwxMTYuMiwxMjguOXogTTE4Mi4zLDEyOS4ydi00LjRjMC0xNi05LjUtMjYuMi0yNC4xLTI2LjINCgkJYy0xNC43LDAtMjQuMSwxMC4zLTI0LjEsMjYuMnY0LjRjMCwxNS43LDkuNSwyNS43LDI0LjEsMjUuN0MxNzIuOSwxNTUsMTgyLjMsMTQ0LjUsMTgyLjMsMTI5LjJ6Ii8+DQoJPHBhdGggY2xhc3M9InN0MCIgZD0iTTIyMy45LDUyLjljNi41LDAsMTEuNCw0LjEsMTEuNCwxMC4zdjEuMWMwLDYuMi00LjksMTAuMy0xMS40LDEwLjNzLTExLjYtNC4xLTExLjYtMTAuM3YtMS4xDQoJCUMyMTIuMyw1NywyMTcuNCw1Mi45LDIyMy45LDUyLjl6IE0yMzIuOSwxNjlIMjE1Vjg0LjZoMTcuOVYxNjl6Ii8+DQoJPHBhdGggY2xhc3M9InN0MCIgZD0iTTMxMy44LDEyOC45di03NGgxNy45djM5LjljNS45LTcuMywxNS41LTEyLjIsMjYuOS0xMi4yYzIxLjgsMCwzOS4zLDE3LjMsMzkuMyw0MS42djUuNA0KCQljMCwyNC0xNy44LDQxLjQtNDIuNCw0MS40QzMzMi4yLDE3MC45LDMxMy44LDE1NS4zLDMxMy44LDEyOC45TDMxMy44LDEyOC45eiBNMzc5LjksMTI5LjJ2LTQuNGMwLTE2LTkuNS0yNi4yLTI0LjEtMjYuMg0KCQljLTE0LjcsMC0yNC4xLDEwLjMtMjQuMSwyNi4ydjQuNGMwLDE1LjcsOS41LDI1LjcsMjQuMSwyNS43QzM3MC41LDE1NSwzNzkuOSwxNDQuNSwzNzkuOSwxMjkuMnoiLz4NCgk8cGF0aCBjbGFzcz0ic3QwIiBkPSJNMzAzLjYsODZsLTQuMiwxNi4zYy0zLjMtMS41LTYuNS0yLjQtMTAuNC0yLjRjLTExLjQsMC0yMCw4LjgtMjAsMjMuNVYxNjlIMjUxVjg0LjZoMTcuOXYxMS43DQoJCWM0LjktOS45LDEzLTEzLjcsMjEuOC0xMy43QzI5NS42LDgyLjYsMzAwLDgzLjcsMzAzLjYsODZMMzAzLjYsODZ6Ii8+DQoJPHBhdGggY2xhc3M9InN0MCIgZD0iTTQwOS4xLDEyOS41VjEyNGMwLTI0LjEsMTcuNC00MS40LDM5LjMtNDEuNGMxMS40LDAsMjEsNC45LDI2LjksMTIuMlY4NC42aDE3LjlWMTY5aC0xNy45di0xMC4zDQoJCWMtNS45LDcuMy0xNS41LDEyLjItMjYuOSwxMi4yQzQyNi41LDE3MC45LDQwOS4xLDE1My43LDQwOS4xLDEyOS41eiBNNDc1LjMsMTI4Ljd2LTMuOWMwLTE2LTkuMy0yNi4yLTI0LTI2LjINCgkJYy0xNC43LDAtMjQsMTAuMy0yNCwyNi4ydjMuOWMwLDE2LDkuMywyNi4yLDI0LDI2LjJDNDY2LDE1NSw0NzUuMywxNDQuNyw0NzUuMywxMjguN3oiLz4NCgk8cGF0aCBjbGFzcz0ic3QwIiBkPSJNNTI5LDEyMC4zVjE2OWgtMTcuOVY4NC42SDUyOXYxMC42YzQuNC02LjUsMTIuNC0xMi41LDI0LjgtMTIuNWMxOS4xLDAsMzEuNiwxMy41LDMxLjYsMzYuM3Y1MGgtMTcuOXYtNDguOQ0KCQljMC0xNC4yLTctMjEuNS0xOC40LTIxLjVDNTM4LjMsOTguNiw1MjksMTA2LjcsNTI5LDEyMC4zTDUyOSwxMjAuM0w1MjksMTIwLjN6Ii8+DQoJPHBhdGggY2xhc3M9InN0MCIgZD0iTTYyMSwxNjloLTE3LjlWNTQuOUg2MjF2NjUuOGwzNC4xLTM2LjJoMjMuM2wtMzMuOSwzNC4ybDM3LjIsNTAuMmgtMjJsLTI3LjQtMzhMNjIxLDE0Mi4zTDYyMSwxNjlMNjIxLDE2OXoiDQoJCS8+DQo8L2c+DQo8L3N2Zz4NCg==" alt="Logo">
+      </div>
+
+      <div class="space-y-4 lg:ml-6">
+        <a href="#" class="block transition hover:text-red-500">Kartlar</a>
+        <a href="#" class="block transition hover:text-red-500">Avtomobil krediti</a>
+        <a href="#" class="block transition hover:text-red-500">Xəbərlər</a>
+        <a href="#" class="block transition hover:text-red-500">Ninja</a>
+        <a href="#" class="block transition hover:text-red-500">Bloqlar</a>
+      </div>
+
+      <div class="space-y-4">
+        <a href="#" class="block transition hover:text-red-500">Partnyorlar</a>
+        <a href="#" class="block transition hover:text-red-500">Sığortalar</a>
+        <a href="#" class="block transition hover:text-red-500">Tariflər</a>
+        <a href="#" class="block transition hover:text-red-500">Birbank profilini sil</a>
+      </div>
+
+      <div class="space-y-4">
+        <a href="#" class="block transition hover:text-red-500">Kampaniyalar</a>
+        <a href="#" class="block transition hover:text-red-500">Haqqımızda</a>
+        <a href="#" class="block transition hover:text-red-500">FAQ</a>
+        <a href="#" class="block transition hover:text-red-500">Ekosistem</a>
+      </div>
+
+      <div class="flex flex-row items-center gap-4 lg:col-span-1">
+        <div class="flex flex-col gap-3">
+          <div class="bg-[#25282b] w-[160px] border border-white text-white items-center flex rounded-[10px] py-[3px] px-[9px] hover:border-red-500 transition-colors">
+            <i class="fa-brands fa-app-store-ios text-[24px] text-[#e30613]"></i>
+            <div class="pl-1.5">
+              <p class="font-bold text-[18px] leading-tight">
+                <a href="https://apps.apple.com/us/app/birbank/id1293207342" target="_blank">App Store</a>
+              </p>
+              <p class="text-[12px]">mobil tətbiqi yüklə</p>
+            </div>
+          </div>
+
+          <div class="bg-[#25282b] w-[160px] border border-white text-white items-center flex rounded-[10px] py-[3px] px-[9px] hover:border-red-500 transition-colors">
+            <i class="fa-brands fa-google-play text-[24px] text-[#e30613]"></i>
+            <div class="pl-1.5">
+              <p class="font-bold text-[18px] leading-tight">
+                <a href="https://play.google.com/store/apps/details?id=az.kapitalbank.mbanking&hl=en_IN&gl=AZ" target="_blank">Google Play</a>
+              </p>
+              <p class="text-[12px]">mobil tətbiqi yüklə</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="flex-shrink-0">
+          <img class="w-[80px] h-[80px] md:w-[90px] md:h-[90px] hidden md:block " 
+               src="data:image/png;base64,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" 
+               alt="QR Code">
+        </div>
+      </div>
+    </div>
+
+    <div class="flex flex-col md:flex-row justify-between items-center pt-8 gap-6">
+      <div class="text-sm text-white opacity-70">
+        © 2026 «Kapital Bank» ASC. Bütün hüquqlar qorunur.
+      </div>
+
+      <div class="flex items-center gap-6">
+        <a href="#" class="text-sm hover:underline">Məxfilik sənədi</a>
+        <div class="flex items-center gap-1 font-bold text-lg">
+          <i class="fa-solid fa-square-phone-flip"></i>
+          <span class="text-[#e30613]">196</span>
+        </div>
+        <div class="flex gap-4 text-xl">
+          <a href="#" class="hover:text-blue-500"><i class="fa-brands fa-facebook"></i></a>
+          <a href="#" class="hover:text-pink-500"><i class="fab fa-instagram"></i></a>
+          <a href="#" class="hover:text-red-500"><i class="fab fa-youtube"></i></a>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+    <div id="chatbot" class=" fixed bottom-8 right-8 z-[9999] group">
+  
+      <div class="absolute bottom-20 right-0 w-[330px] max-h-[480px] bg-white rounded-[30px] shadow-2xl border border-gray-100 overflow-hidden opacity-0 invisible translate-y-5 transition-all duration-300 group-hover:opacity-100 group-hover:visible group-hover:translate-y-0">
+        
+        <div class="p-3 text-center border-b border-gray-50 relative">
+          <i class="fa-solid fa-chevron-down absolute left-5 top-5 text-gray-400 text-xs"></i>
+          <h5 class="font-semibold text-gray-800 text-sm">Chatbot</h5>
+          <p class="text-[11px] text-gray-400">24/7 Dəstək</p>
+        </div>
+
+        <div class="p-5 flex flex-col items-center text-center">
+          <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAJQAAACUCAMAAABC4vDmAAAAgVBMVEX+ATr+ADr////7ADLruMTrucP8///+ADj9AC/9ADH+ADT//f/6ADT2ACb5AC33ADDuADPufZH0uMTqW3TnTWj2zNXssb3rN1jtDTvpi5367/PuAC7nbH323ePkQV7nFD/uq7nyAB7tnq3paH/rcYjqKkvoKlDiXXTrhZbrACPulKSi1uZCAAACRElEQVR4nO3bW3eiMBQFYBIlRyKgVlAHSy3amV7+/w+coJ1ZvWh7JMHEmb372OVZmy/HvJRGUZARJ37O/YWzQcK3yKlAihtIcQMpbiDFDaS4gRQ3kOIGUtxAihtIcQOpqw6Oj5v/Q0ocYjfDtVQU0WiShiUlomQ6u5mnVrNdS+lJUY7lYiCCkRKULRfSJE7t5riTiihZ/aikMqWGaedBTqWESNe3dctkag3DkKJkfVeqQ6VApIiyzX0l/yaEndK5WSal3pXyLCWSZlfKN5U8S5G5jigvbva7FI4UZattJT/Gq1SUr2afK3mVEropyiOVPEoZpuVQvV5MwUhlu+pYIa9S6V11VMmnlMi3xwv5lKJB/GUpL1LflfKSPkv9a8c3DFHq61KQghSkIAUpSEEKUpCCFKQuGxwfpCAFKUhBClKQghSkIAUpSF1Gyte7Lt+V8pLrO77gFl0pJbe53R/N+5AaFzosKSVlNcusRruVUvsXlsr5hM4Y1L+UkvXDemTn5HynxtufOYmzBvUspcaLX40WZOnkTMqsklmmx4lu34c7b1B/UmbF66fn3B7JpZSs7jdtpQ6D+pJSKl425IgpspKKD+90mW2q59Pk1CcuLBXvv3DKXOCrEdleTe9ivVPtzaSJug9yLWUugrhoNFmO+hQrKVXv1klnkB6kxOChfNkkDr9zb2Z3fkBKpwPd/ptMQFJ/HsrtNr0OdfSAQUn1EkhddXB83ECKG0hxAyluIMUNpLiBFDeQ4gZS3ECKG0hxAylefgM5+zSYXVst6wAAAABJRU5ErkJggg==" 
+              class="w-16 h-16 rounded-full mb-3 object-contain border border-gray-100 shadow-sm" alt="logo">
+          
+          <h3 class="text-lg font-bold text-gray-900 mb-1">Xoş gəldiniz!</h3>
+          <p class="text-gray-500 text-xs mb-4">Bugün sizə necə kömək edə bilərəm?</p>
+
+          <div class="flex items-start gap-2 w-full mb-4">
+            <div class="w-7 h-7 rounded-full bg-gray-100 flex items-center justify-center shrink-0 overflow-hidden border border-gray-200">
+              <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAJQAAACUCAMAAABC4vDmAAAAgVBMVEX+ATr+ADr////7ADLruMTrucP8///+ADj9AC/9ADH+ADT//f/6ADT2ACb5AC33ADDuADPufZH0uMTqW3TnTWj2zNXssb3rN1jtDTvpi5367/PuAC7nbH323ePkQV7nFD/uq7nyAB7tnq3paH/rcYjqKkvoKlDiXXTrhZbrACPulKSi1uZCAAACRElEQVR4nO3bW3eiMBQFYBIlRyKgVlAHSy3amV7+/w+coJ1ZvWh7JMHEmb372OVZmy/HvJRGUZARJ37O/YWzQcK3yKlAihtIcQMpbiDFDaS4gRQ3kOIGUtxAihtIcQOpqw6Oj5v/Q0ocYjfDtVQU0WiShiUlomQ6u5mnVrNdS+lJUY7lYiCCkRKULRfSJE7t5riTiihZ/aikMqWGaedBTqWESNe3dctkag3DkKJkfVeqQ6VApIiyzX0l/yaEndK5WSal3pXyLCWSZlfKN5U8S5G5jigvbva7FI4UZattJT/Gq1SUr2afK3mVEropyiOVPEoZpuVQvV5MwUhlu+pYIa9S6V11VMmnlMi3xwv5lKJB/GUpL1LflfKSPkv9a8c3DFHq61KQghSkIAUpSEEKUpCCFKQuGxwfpCAFKUhBClKQghSkIAUpSF1Gyte7Lt+V8pLrO77gFl0pJbe53R/N+5AaFzosKSVlNcusRruVUvsXlsr5hM4Y1L+UkvXDemTn5HynxtufOYmzBvUspcaLX40WZOnkTMqsklmmx4lu34c7b1B/UmbF66fn3B7JpZSs7jdtpQ6D+pJSKl425IgpspKKD+90mW2q59Pk1CcuLBXvv3DKXOCrEdleTe9ivVPtzaSJug9yLWUugrhoNFmO+hQrKVXv1klnkB6kxOChfNkkDr9zb2Z3fkBKpwPd/ptMQFJ/HsrtNr0OdfSAQUn1EkhddXB83ECKG0hxAyluIMUNpLiBFDeQ4gZS3ECKG0hxAylefgM5+zSYXVst6wAAAABJRU5ErkJggg==" 
+                    class="w-full h-full object-contain" alt="">
+            </div>
+            <div class="bg-gray-100 p-3 rounded-2xl rounded-tl-none text-[13px] text-gray-700 relative text-left">
+              Davam etmək üçün dili seçin
+              <span class="text-[9px] text-gray-400 block text-right mt-1">17:07</span>
+            </div>
+          </div>
+
+          <div class="flex flex-col gap-1.5 w-full items-end">
+            <button class="border border-gray-200 py-1.5 px-4 rounded-full text-[13px] font-medium hover:bg-gray-50 transition-colors w-fit flex gap-2">
+              <span class="text-gray-400">AZ</span> Azərbaycan dili
+            </button>
+            <button class="border border-gray-200 py-1.5 px-4 rounded-full text-[13px] font-medium hover:bg-gray-50 transition-colors w-fit flex gap-2">
+              <span class="text-gray-400">RU</span> Русский
+            </button>
+            <button class="border border-gray-200 py-1.5 px-4 rounded-full text-[13px] font-medium hover:bg-gray-50 transition-colors w-fit flex gap-2">
+              <span class="text-gray-400">GB</span> English
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <button class="flex items-center justify-center w-16 h-16 rounded-full text-white shadow-lg bg-gradient-to-tr from-[#ff8587] to-[#ff4f7a] transition-all duration-300 ease-out group-hover:scale-110">
+        <i class="fa-solid fa-comment-dots text-2xl"></i>
+      </button>
+
+    </div>
+
+    
+
 
     <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
     <script>
